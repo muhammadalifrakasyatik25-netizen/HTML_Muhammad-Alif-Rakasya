@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact / Order - Muhammad Alif Rakasya</title>
+    <link rel="icon" href="./image/kecil.jpg">
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        #catatan {
+            width: 100%;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar-center">
+        <a href="index.html">Home</a>
+        <a href="Portofolio.html">Portofolio</a>
+        <a href="CV.html">CV</a>
+        <b><a href="contact.html">Contact</a></b>
+    </div>
+    <hr>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td align="center" valign="middle">
+                <div class="order-box">
+                    <h2 align="left">Order Here</h2>
+                    <form action="#" method="post" align="left">
+                        <label for="nama">Nama Pemesan</label>
+                        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap">
+                        <label for="Telepon">Nomor Telepon</label>
+                        <input type="text" id="Telepon" name="Telepon" placeholder="08123456789">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="nama@email.com">
+                        <label for="layanan">Pilih Layanan</label>
+                        <input type="text" id="layanan" name="layanan" placeholder="Misal: UI/UX, Desain Grafis, Animasi 2D">
+                        <label for="tanggal">Tanggal Order</label>
+                        <input type="date" id="tanggal" name="tanggal">
+                        <label>Metode Pembayaran</label>
+                        <div class="radio-group">
+                            <label>
+                                <input type="radio" id="transfer" name="pembayaran" value="Transfer Bank"> Transfer Bank
+                            </label>
+                            <label>
+                                <input type="radio" id="ewallet" name="pembayaran" value="E-Wallet"> E-Wallet
+                            </label>
+                        </div>
+                        <label for="catatan">Catatan / Detail Pesanan</label>
+                        <textarea id="catatan" name="catatan" rows="4" placeholder="Tuliskan deskripsi atau detail kebutuhan Anda..."></textarea>
+                        <div class="button-group">
+                            <input type="submit" value="Kirim Pesanan">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+                </div>
+                <br><br>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
